@@ -1,0 +1,14 @@
+{
+    "auth": {
+        "email": "***************",
+        "password": "***************"
+        },
+    "device": {
+        "build_number": "13994",
+        "name": "iPhone",
+        "os": "iOS 14.4",
+        "time_zone": "US/Pacific",
+        "udid": "***************",
+        "version": "5.11.7"
+    }
+}

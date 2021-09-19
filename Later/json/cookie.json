@@ -1,0 +1,7 @@
+{
+	"Header": {
+		"Authorization": "Token token=\"*******************\"",
+		"Cookie": "_latergram_session=************************; path=/; expires=Mon, 27 Sep 2021 14:50:51 GMT; secure; HttpOnly; SameSite=Lax"
+	},
+	"Expiry": "27 Sep 2021 14:50:51"
+}
