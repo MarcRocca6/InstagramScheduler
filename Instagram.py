@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-# File:             Instagram.py
-# Date:             20/09/2021
-# Description:      Manages all other module of this repository,
-#					schedules Instagram posts and generates content
-#					for those posts.
-# Author:           Marc Rocca
-# Modifications:    Null
+# File:             	Instagram.py
+# Date:             	20/09/2021
+# Description:      	Manages all other module of this repository,
+#			schedules Instagram posts and generates content
+#			for those posts.
+# Author:           	Marc Rocca
+# Modifications:    	Null
 
 import sys
 import os
