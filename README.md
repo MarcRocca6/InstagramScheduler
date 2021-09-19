@@ -24,7 +24,7 @@ This repository is divided up into 5 main module which are:
  
  <br />
  
-A video of the implementation of this project can be seen in the following video.
+### A video of the implementation of this project can be seen in the following image link.
 
 [![The Instagram Scheduler Video](videoImg.jpg)](https://youtu.be/4pQ3MDBxKDI)
 
