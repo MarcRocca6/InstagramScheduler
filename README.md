@@ -1,28 +1,35 @@
 # The Instagram Scheduler 
 
-This repository serves to automate many of the processes associated with creating and posting Instagram posts. This project was focused upon creating Instagram content for **Bottleshops/Liquorshops** to increase online engagement for these companies whilst reducing the amount of time that is needed to maintain these online account. The scope of this repository includes functions such as:
+This repository serves to automate many of the processes associated with creating and posting [Instagram](https://www.instagram.com/) posts. 
+
+This project was focused upon creating Instagram content for **Bottleshops/Liquorshops** to increase online engagement for these companies whilst reducing the amount of time that is needed to maintain these online accounts. The scope of this repository includes functions such as:
 * Allowing users to schedule Instagram posts into the future
 * Autonomously generate content, descriptions and hashtags for a particular post. 
 * Locate images that would be suitable to be used for a particular post
 * Automatically follow Instagram users are that deemed to be part of the desired audience demographic
 
+ <br />
+ 
 This repository is divided up into 5 main module which are:
 1. **Later.com**  
     * Interacts with Later.com APIs to schedule Instagram posts
 2. **Untapped.com**
-    * Retrieves and generates liquor related Instagram content
+    * Retrieves and generates liquor from the Untapped.com website related Instagram content
 3. **ImageSearch**
     * Finds a selection of images that are suitable to be used for a particular Instagram post
 4. **Instagram Bot**
     * Automates Instagram actions such as following users and liking posts
 5. **Google Cloud API**
     * Updates a Google Calendar to inform the user on when the next Instagram post is scheduled
-
+ 
+ <br />
+ 
 A video of the implementation of this project can be seen in the following video.
 
-[![The Instagram Scheduler Video](https://youtu.be/4pQ3MDBxKDI/0.jpg)](https://youtu.be/4pQ3MDBxKDI)
+[![The Instagram Scheduler Video](videoImg.jpg)](https://youtu.be/4pQ3MDBxKDI)
 
-
+ <br />
+ 
 # Later.com Module
 
 This module deals with retrieving and passing information to the Later.com API. Later.com is a social media management tool that allows you to schedule posts across platforms such as Instagram and Facebook. 
@@ -53,6 +60,8 @@ There was one function that was unable to be implemented by using HTTP requests 
 
 The [selenium](https://selenium-python.readthedocs.io/) library and [chromedriver](https://chromedriver.chromium.org/downloads) were used to perform this browser automation to upload images to the servers.
 
+ <br />
+ 
 # Untapped.com Module
 
 This module deals with retrieving information from the [Untapped.com](https://untappd.com/) website using HTTP requests. Untapped.com is a networking service website that allows:
@@ -71,13 +80,15 @@ This module is separated into three files:
     * This file handles all interactions with the Untapped.com website as well as the formation of beer descriptions.
 3. **configuration.py**
     * This file contains the HTTP header information that were passed with each HTTP request.  
-
+ <br />
 # ImageSearch Module
 
 This module deals with the retrieval and downloading of beer related images. Given the name of a particular beer and the brewer this module uses *Google-Images* to locate images of that beer. 
 
 This module also performs *Google-Reverse-Image-Search* to find the original source of an image so that the original creator of that image can be properly credited in an Instagram post description if that image was to be used. 
 
+ <br />
+ 
 # Instagram Bot Module
 
 This module uses an unoffical [Instagram API library](https://github.com/Julian-O/Instagram-API-python) to automate common Instagram actions. 
@@ -115,7 +126,8 @@ This module is separated into three files:
     * This uses browser automation using [selenium](https://selenium-python.readthedocs.io/) to comment on a particular Instagram post. 
 
 
-
+ <br />
+ 
 # Google Cloud API Module
 
 This module utilises the Google Cloud Platform, in particular the [Google Drive API](https://developers.google.com/drive/api/v3/about-sdk) and the [Google Calendar API](https://developers.google.com/calendar).
