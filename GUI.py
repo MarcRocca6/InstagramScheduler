@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+# File:             GUI.py
+# Date:             20/09/2021
+# Description:      Creates a Graphical User Interface allowing users to 
+#					interact with the features of this repository
+# Author:           Marc Rocca
+# Modifications:    Null
+
 import os
 import io
 import sys
