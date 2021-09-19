@@ -12,9 +12,9 @@ This project was focused upon creating Instagram content for **Bottleshops/Liquo
  
 This repository is divided up into 5 main module which are:
 1. **Later.com**  
-    * Interacts with Later.com APIs to schedule Instagram posts
+    * Interacts with [Later.com](https://later.com/) APIs to schedule Instagram posts. [Later.com](https://later.com/) was used to schedule Instagram posts because convention methods such as browser automation and HTTP requests have a high chance of being detected by Instagram which could likely lead to your account being [shadowbanned](https://later.com/blog/instagram-shadowban) 
 2. **Untapped.com**
-    * Retrieves and generates liquor from the Untapped.com website related Instagram content
+    * Retrieves and generates liquor from the [Untapped.com](https://untappd.com/) website related Instagram content
 3. **ImageSearch**
     * Finds a selection of images that are suitable to be used for a particular Instagram post
 4. **Instagram Bot**
@@ -34,7 +34,7 @@ This repository is divided up into 5 main module which are:
 
 This module deals with retrieving and passing information to the Later.com API. Later.com is a social media management tool that allows you to schedule posts across platforms such as Instagram and Facebook. 
 
-Interactions with the Later.com API are performed using HTTP requests and Browser Automation through the use of the python module Selenium. 
+Interactions with the [Later.com](https://later.com/) API are performed using HTTP requests and Browser Automation through the use of the python module Selenium. [Later.com](https://later.com/) was used to schedule Instagram posts because convention methods such as browser automation and HTTP requests have a high chance of being detected by Instagram which could likely lead to your account being [shadowbanned](https://later.com/blog/instagram-shadowban) 
 
 ### File Structure
 
