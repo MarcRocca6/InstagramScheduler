@@ -16,7 +16,7 @@ from InstagramAPI import InstagramAPI
 from geopy.geocoders import Nominatim
 
 # Scouting Login
-login_sentry = ['premqual123', "chicken123"]
+login_sentry = ['*****', "*****"]
 
 
 class InstaBot:
